@@ -5,7 +5,9 @@ mkdir tscapp
 cd tscapp
 npm init --yes
 ```
+
 # typeScript
+
 ```
 npm install -g typescript
 
@@ -15,7 +17,9 @@ tsc --init
 npm install -g @types/node
 
 ```
-# express 
+
+# express
+
 ```
 npm install express
 npm install @types/express -D
@@ -23,7 +27,12 @@ npm install @types/express -D
 ```
 
 # tools
+
 ```
 npm install -g nodemon
 ```
 
+```
+# 多文件合并
+tsc --outfile  app.js other.ts ....
+```
